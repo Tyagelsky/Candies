@@ -15,8 +15,8 @@ class Secretary_Jeniffer
     # it might be 2.3 or 4.1 or any other float number
     # check how many full copies we have
     while num_copies.floor < n 
-      num_copies += min_t*fastest + min_t*slowest
-      time +=min_t 
+      num_copies += min_t * fastest + min_t * slowest
+      time += min_t 
     end
    p time
   end
